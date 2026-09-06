@@ -1,0 +1,17 @@
+{
+    "name": "libilbc",
+    "description": "iLBC (Internet Low Bitrate Codec) decoder",
+    "filters":["ilbcdec"],
+    "help": "This filter decodes iLBC speech files using libilbc.",
+    "support": [
+        "audio"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libilbc.accessor",
+    "filter_source":{
+        "ilbcdec" : "dec_ilbc.c"
+    },
+    "extension":{
+      "lbc" : "audio"
+    },
+    "licence_required":false
+}
