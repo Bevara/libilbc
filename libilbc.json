@@ -1,5 +1,6 @@
 {
     "name": "libilbc",
+    "version": "1.0.1",
     "description": "iLBC (Internet Low Bitrate Codec) decoder",
     "filters":["ilbcdec"],
     "help": "This filter decodes iLBC speech files using libilbc.",
